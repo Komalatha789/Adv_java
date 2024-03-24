@@ -1,0 +1,13 @@
+package com.sathya.Jdbc;
+
+public class JdbcEx1 {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		// TODO Auto-generated method stub
+   //step1- Load the Driver
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		System.out.println("Driver Loaded Successfully...");
+		
+	}
+
+}
